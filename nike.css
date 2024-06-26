@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo2 {
+    margin-right: auto; /* Align logo to the left */
+}
+
+.logo2 img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.nav-links2-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links2 {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links2 li {
+    margin-left: 20px;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-links2 a:hover {
+    text-decoration: underline;
+}
+
+.head {
+    flex : 1;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    margin-left: 60px;
+}
+
+.head h2{
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.banner {
+    display: flex;
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    /* Optional: Set a height for the banner container if needed */
+    height: 900px; /* Adjust this value as per your design */
+    
+}
+.banner img {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.head2 h1{
+    font-size: 18px;
+    display: flex;
+    align-items: center; /* Center the image vertically */
+    justify-content: center;
+
+}
+
+.head2 h2 {
+    font-size: 40px;
+    font-weight: bold; /* Make the text bold */
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+    margin-bottom: 10px; /* Adjust the value to move the text upward */
+}
+
+.head2 .buttons {
+    text-align: center; /* Center the buttons */
+}
+
+.head2 .buttons button {
+    color: white; /* Set text color to white */
+    background-color: black; /* Set background color to black */
+    padding: 10px 20px; /* Add padding to create oval shape */
+    border-radius: 20px; /* Create oval shape */
+    border: 2px solid white; /* Add white outline */
+    margin: 0 10px; /* Add space between buttons */
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+    border: 1px solid black; /* Add black thin outline */
+    border-radius: 10px; /* Add curved corners */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove any extra spacing */
+}
+
+.shop-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container2 {
+    position: relative;
+    border: 1px solid black; /* Add black thin outline */
+    border-radius: 10px; /* Add curved corners */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.image-container2 img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove any extra spacing */
+}
+
+.shop-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
